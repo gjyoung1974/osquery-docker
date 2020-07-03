@@ -29,6 +29,8 @@ COPY ossec-rootkit.conf /etc/osquery/ossec-rootkit.conf
 COPY vuln-management.conf /etc/osquery/vuln-management.conf
 # File Integrity Monitoring for Linux Hosts
 COPY file-integrity.conf /etc/osquery/file-integrity.conf
+
+# Clean up packages
 RUN rm /osquery_4.4.0-23-gfe2c5a16-1.linux_amd64.deb
 
 # TODO: add the fluentd daemon
