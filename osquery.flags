@@ -1,0 +1,11 @@
+--disable_audit=true
+--disable_events=false
+--events_expiry=1
+--events_max=50000
+--logger_plugin=filesystem,syslog
+--host_identifier=hostname
+--pack_delimiter=/
+--verbose
+--schedule_splay_percent=10
+--logger_snapshot_event_type=true
+--logger_event_type=true

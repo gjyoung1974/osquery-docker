@@ -1,0 +1,2 @@
+*/1 * * * * /usr/bin/osqueryi -json "select 'uptime' as query, * from uptime;" >> /var/log/osquery/osqueryi.log 2>&1
+*/1 * * * * /usr/bin/osqueryi -json "select 'info' as query, * from os_version;" >> /var/log/osquery/osqueryi.log 2>&1

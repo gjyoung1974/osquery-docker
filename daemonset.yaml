@@ -24,8 +24,6 @@ spec:
               apiVersion: v1
               fieldPath: spec.nodeName
         image: gjyoung1974/osqueryds:latest
-        # image: ubuntu
-        # command: ["tail","-f","/dev/null"]
         imagePullPolicy: Always
         name: osquery
         resources: {}
